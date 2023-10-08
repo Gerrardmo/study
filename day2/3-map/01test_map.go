@@ -7,6 +7,7 @@ func main() {
 	//声明mymap1是map类型 key是string类型   value是string类型
 	var myMap1 map[string]string
 	if myMap1 == nil {
+		//
 		fmt.Printf("mymap1是一个空map\n")
 	}
 	//在使用map之前先要给他分配空间
