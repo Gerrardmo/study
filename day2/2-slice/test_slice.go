@@ -10,6 +10,9 @@ func main() {
 		myArray1[i] = i
 		fmt.Println(myArray1[i])
 	}
+	//for _, v := range myArray2 {
+	//	fmt.Println(v)
+	//}
 	for index, value := range myArray2 {
 		fmt.Println(index, ":", value)
 	}
