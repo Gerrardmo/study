@@ -1,8 +1,8 @@
 package main
 
 import (
-	"goStudy/day1/4-init/lib1"
-	_ "goStudy/day1/4-init/lib2"
+	"goStudy/1_/4-init/lib1"
+	_ "goStudy/1_/4-init/lib2"
 )
 
 func main() {
