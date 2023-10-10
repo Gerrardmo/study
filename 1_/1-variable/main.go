@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /*
 *
@@ -14,5 +16,10 @@ func main() {
 	var d = 4
 
 	fmt.Println(a, b, c, d)
+	e := "你好a1 "
+	fmt.Println(len(e))
+	for _, i2 := range e {
+		fmt.Printf("unicode %c %d \n", i2, i2)
+	}
 
 }
